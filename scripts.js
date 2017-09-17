@@ -12,7 +12,6 @@ const ranges = player.querySelectorAll('[type="range"]');
 
 
 function togglePlay() {
-  console.log("triggered");
   const method = video.paused ? 'play' : 'pause';
   video[method]();
 }
